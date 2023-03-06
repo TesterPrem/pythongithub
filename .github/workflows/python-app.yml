@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   first-job: 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     container: node:19.7.0
     steps:
       - run: node --version
